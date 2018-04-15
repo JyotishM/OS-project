@@ -3,8 +3,7 @@
 #include<string.h>
 #define MAX_PID 1000
 #define MIN_PID 100
-#define PID_Range 4700
-int pid_map[4700];
+int pid_map[];
 int allocate_pid();
 void release_pid(int pid);
 int allocate_map();
